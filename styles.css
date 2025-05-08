@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Track Timer Styling */
+#track-timer {
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    width: 200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Zoom Slider Styling */
+#zoom-slider, #volume-slider {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+#zoom-slider::-webkit-slider-thumb,
+#volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #f36;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#zoom-slider::-moz-range-thumb,
+#volume-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #f36;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtitle List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+ul li:hover {
+    background-color: #eaeaea;
+}
+
+/* Active Subtitle Highlight */
+.active-subtitle {
+    background-color: #f36;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/* File Input Styling */
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    resize: vertical;
+}
+
+/* Subtitle Clear Button */
+#clear-button {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+#clear-button:hover {
+    background-color: #cc0000;
+}

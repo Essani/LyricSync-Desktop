@@ -1,0 +1,14 @@
+{
+  "name": "lyricsync-desktop",
+  "version": "1.0.0",
+  "description": "Web application for subtitle syncing and waveform visualization",
+  "scripts": {
+    "start": "npx http-server ./public",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "wavesurfer.js": "^7.9.5"
+  },
+  "author": "",
+  "license": "MIT"
+}
